@@ -14,7 +14,7 @@
 	    <form action="index.php" method="post">
 	      <input type="hidden" name="action" value="delete_category" />
 	      <input type="hidden" name="category_id" value="<?php echo
-	      $category['categoryName']; ?> "/>
+	      $category['categoryID']; ?> "/>
 	      <input type="submit" value="Delete"/>
 	    </form>
 	  </td>
@@ -23,7 +23,7 @@
     </table>
 
     <h2>Add Category</h2>
-    <form id="add_category_form" action="index.php" value="post"> 
+    <form id="add_category_form" action="index.php" method="post"> 
       <input type="hidden" name="action" value="add_category" />
 
       <label>Name:</label>
