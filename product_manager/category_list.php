@@ -23,7 +23,7 @@
     </table>
 
     <h2>Add Category</h2>
-    <form id="add_category_form" action="index.php" value="add_category" />
+    <form id="add_category_form" action="index.php" value="post"> 
       <input type="hidden" name="action" value="add_category" />
 
       <label>Name:</label>
